@@ -19,23 +19,17 @@ body{
     position: absolute;
     padding: 10px;
 
-    display: flex;
-    justify-content: space-between;
-
     vertical-align: middle;
     transform: translate(70%, 70%);
 
 
 }
-
 .project{
 
     padding: 20px;
     width: 92%;
     height: 12%;
 }
-
-
 .project:hover{
     background-color: #1a1a1a;
 }
