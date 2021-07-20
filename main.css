@@ -1,0 +1,109 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+#title {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#50CB93, #ACFFAD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.project-container{
+    background-color: #121212;
+
+    width: 40%;
+    height: 40%;
+    overflow-y: auto;
+    position: absolute;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    vertical-align: middle;
+    transform: translate(70%, 70%);
+
+
+}
+
+.project{
+
+    padding: 20px;
+    width: 92%;
+    height: 12%;
+}
+
+
+.project:hover{
+    background-color: #1a1a1a;
+}
+.project-info{
+    float: left;
+}
+.project-btn{
+    float: left;
+}
+.project-title{
+    font-size: 20px;
+    color: #dedede;
+}
+.project-description{
+    font-size: 13px;
+    color: #b3b3b3;
+}
+
+/* gradient */
+.css-selector {
+    background: linear-gradient(225deg, #000000, #52057b);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 51s ease infinite;
+    -moz-animation: AnimationName 51s ease infinite;
+    -o-animation: AnimationName 51s ease infinite;
+    animation: AnimationName 51s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:31% 0%}
+    50%{background-position:70% 100%}
+    100%{background-position:31% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:31% 0%}
+    50%{background-position:70% 100%}
+    100%{background-position:31% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:31% 0%}
+    50%{background-position:70% 100%}
+    100%{background-position:31% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:31% 0%}
+    50%{background-position:70% 100%}
+    100%{background-position:31% 0%}
+}
+
+/* button */
+.project-button {
+    background-color:#bd6ff1;
+    border-radius:28px;
+    border:1px solid #52057b;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    padding:9px 12px;
+    width: 100px;
+    text-decoration:none;
+    text-align: center;
+    transform: translate(75%, 0);
+}
+.project-button:hover {
+    background-color:#8a2cdc;
+}
+.project-button:active {
+    position:relative;
+    top:1px;
+}
