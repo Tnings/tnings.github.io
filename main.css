@@ -97,6 +97,7 @@ body{
     text-decoration:none;
     text-align: center;
 
+    float: right;
 }
 .project-button:hover {
     background-color:#8a2cdc;
