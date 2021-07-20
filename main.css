@@ -1,7 +1,12 @@
 body{
     font-family: "Roboto", sans-serif;
 }
-
+.bottomright{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 13px;
+}
 #title {
     font-size: 72px;
     background: -webkit-linear-gradient(#50CB93, #ACFFAD);
