@@ -1,11 +1,12 @@
 body{
     font-family: "Roboto", sans-serif;
 }
-.bottomright{
+.version{
     position: fixed;
     bottom: 0;
     right: 0;
     font-size: 13px;
+    padding: 5px;
 }
 #title {
     font-size: 72px;
