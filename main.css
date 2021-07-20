@@ -9,23 +9,42 @@ body{
 }
 #title {
     font-size: 72px;
-    background: -webkit-linear-gradient(#50CB93, #ACFFAD);
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-}
+    animation: gradient 16s linear infinite;
 
-.project-container{
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+.page-description{
+    font-size: 20px;
+    color: #dedede;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.bg{
+    width: 800px;
+    height: 700px;
+
+    transform: translate(0,40px);
+
     background-color: #121212;
 
-    width: 40%;
-    height: 40%;
-    overflow-y: auto;
-    position: absolute;
-    padding: 10px;
+    margin: auto;
+}
+.project-container{
 
-    vertical-align: middle;
-    transform: translate(70%, 70%);
+    width: 800px;
+    height: 500px;
+
+    position: absolute;
+
+    overflow-y: auto;
+
+    padding: 10px;
 
 
 }
@@ -50,37 +69,6 @@ body{
     color: #b3b3b3;
 }
 
-/* gradient */
-.css-selector {
-    background: linear-gradient(225deg, #000000, #52057b);
-    background-size: 400% 400%;
-
-    -webkit-animation: AnimationName 51s ease infinite;
-    -moz-animation: AnimationName 51s ease infinite;
-    -o-animation: AnimationName 51s ease infinite;
-    animation: AnimationName 51s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:31% 0%}
-    50%{background-position:70% 100%}
-    100%{background-position:31% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:31% 0%}
-    50%{background-position:70% 100%}
-    100%{background-position:31% 0%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:31% 0%}
-    50%{background-position:70% 100%}
-    100%{background-position:31% 0%}
-}
-@keyframes AnimationName {
-    0%{background-position:31% 0%}
-    50%{background-position:70% 100%}
-    100%{background-position:31% 0%}
-}
 
 /* button */
 .project-button {
@@ -105,4 +93,21 @@ body{
 .project-button:active {
     position:relative;
     top:1px;
+}
+
+/* gradient */
+.gradient-background {
+    width:100%;
+    height: 100%;
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+
+    position: absolute;
+    transform: translate(-8px,-8px);
+}
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
 }
