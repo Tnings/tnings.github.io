@@ -41,9 +41,6 @@ body{
 .project-info{
     float: left;
 }
-.project-btn{
-    float: left;
-}
 .project-title{
     font-size: 20px;
     color: #dedede;
@@ -93,11 +90,13 @@ body{
     display:inline-block;
     cursor:pointer;
     color:#ffffff;
+
     padding:9px 12px;
     width: 100px;
+
     text-decoration:none;
     text-align: center;
-    transform: translate(75%, 0);
+
 }
 .project-button:hover {
     background-color:#8a2cdc;
