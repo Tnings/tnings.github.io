@@ -1,6 +1,164 @@
 body{
     font-family: "Roboto", sans-serif;
 }
+a{
+    border: none;
+    text-decoration: none;
+}
+.shadertoy-link{
+    color: #88FFF7;
+}
+.invite-container{
+    width: 100%;
+    height: 300px;
+
+    transform: translate(0,50px);
+
+}
+.discord-title{
+    float: left;
+    font-size: 30px;
+    color: #dedede;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.discord-text{
+    background: linear-gradient(45deg,#7289DA, #f47fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    float: left;
+    margin-left: 7px;
+    padding-top: 10px;
+}
+.discord-invite{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+.social-name{
+    font-size: 30px;
+    color: #dedede;
+}
+.social-name-youtube{
+    font-size: 30px;
+    color: #dedede;
+
+    transform: translate(-12px);
+}
+.contact-container{
+    width: 100%;
+    height: 130px;
+}
+.social{
+    width: 90px;
+    height: 130px;
+
+    /*
+    border-style: dashed;
+    color: white;
+
+     */
+
+    text-align: center;
+
+    margin-left: 55px;
+    margin-right: 50px;
+    margin-top: 25px;
+
+    float: left;
+}
+
+.github-btn{
+    width: 50px;
+    height: 50px;
+
+    background: linear-gradient(45deg,#6e5494, #333);
+    background-size: 180%;
+    border-radius: 50%;
+
+    padding: 20px;
+}
+.email-btn{
+    width: 50px;
+    height: 50px;
+
+    background: linear-gradient(45deg, #4285F4, #bb001b);
+    background-size: 180%;
+    border-radius: 50%;
+
+    padding: 20px;
+}
+.twitter-btn{
+    width: 50px;
+    height: 50px;
+
+    background: linear-gradient(45deg,#1DA1F2, #14171A);
+    background-size: 180%;
+    border-radius: 50%;
+
+    padding: 20px;
+}
+.youtube-btn{
+    width: 50px;
+    height: 50px;
+
+    background: linear-gradient(45deg,#FF0000, #282828);
+    background-size: 180%;
+    border-radius: 50%;
+
+    padding: 20px;
+}
+.about-me-container{
+    width: 800px;
+    height: 500px;
+}
+.header{
+    font-size: 30px;
+    color: #dedede;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.regular-text{
+    font-size: 17px;
+    color: #bfbfbf;
+    width: 90%;
+    padding-left: 25px;
+}
+.menu-bar{
+    width: 100%;
+    height: 40px;
+
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+}
+.menu-bar-item{
+    width: 32.5%;
+    height: 100%;
+
+    margin-left: 5px;
+
+    background-color: #1a1a1a;
+
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #dedede;
+
+    border: none;
+    text-decoration: none;
+}
+.menu-bar-item:hover {
+    background-color: #212121;
+}
+.menu-bar-item:active{
+    opacity: 0.70;
+}
 .version{
     position: fixed;
     bottom: 0;
@@ -53,7 +211,7 @@ body{
 
     padding: 20px;
     width: 92%;
-    height: 12%;
+    height: 8%;
 }
 .project:hover{
     background-color: #1a1a1a;
@@ -73,9 +231,12 @@ body{
 
 /* button */
 .project-button {
-    background-color:#bd6ff1;
+    /* background-color:#bd6ff1; */
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+    background-size: 600%;
+
     border-radius:28px;
-    border:1px solid #52057b;
+    /* border:1px solid #52057b; */
     display:inline-block;
     cursor:pointer;
     color:#ffffff;
