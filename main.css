@@ -251,11 +251,12 @@ a{
 }
 .project-button:hover {
     background: linear-gradient(45deg,#d97050, #cf3e76, #1f96c2 , #23c29d, #e6c615, #e63205);
+    background-size: 600%;
 }
 .project-button:active {
     position:relative;
     top:1px;
-    transform: translate(0,10px);
+    transform: translate(0,2px);
 }
 
 /* gradient */
