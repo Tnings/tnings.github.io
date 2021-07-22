@@ -196,20 +196,21 @@ a{
 }
 .project-container{
 
-    width: 100%;
+    width: 800px;
     height: 500px;
 
     position: absolute;
 
     overflow-y: auto;
 
+    margin-top: 10px;
 
 
 }
 .project{
 
     padding: 20px;
-    width: 100%;
+    width: 95%;
     height: 8%;
 }
 .project:hover{
