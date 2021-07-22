@@ -196,21 +196,20 @@ a{
 }
 .project-container{
 
-    width: 800px;
+    width: 100%;
     height: 500px;
 
     position: absolute;
 
     overflow-y: auto;
 
-    padding: 10px;
 
 
 }
 .project{
 
     padding: 20px;
-    width: 92%;
+    width: 100%;
     height: 8%;
 }
 .project:hover{
@@ -250,11 +249,12 @@ a{
     float: right;
 }
 .project-button:hover {
-    background-color:#8a2cdc;
+    background: linear-gradient(45deg,#d97050, #cf3e76, #1f96c2 , #23c29d, #e6c615, #e63205);
 }
 .project-button:active {
     position:relative;
     top:1px;
+    transform: translate(0,10px);
 }
 
 /* gradient */
