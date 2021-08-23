@@ -149,6 +149,8 @@ a{
     justify-content: center;
     align-items: center;
 
+    z-index: 10;
+
     color: #dedede;
 
     border: none;
@@ -187,11 +189,11 @@ a{
 }
 .bg{
     width: 800px;
-    height: 700px;
-
-    transform: translate(0,40px);
+    height: 100%;
 
     background-color: #121212;
+
+    opacity: 1;
 
     margin: auto;
 }
@@ -263,16 +265,17 @@ a{
 /* gradient */
 .gradient-background {
     width:100%;
-    height: 100%;
+    height: calc(100% + 30px);
     background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
     background-size: 600% 100%;
     animation: gradient 16s linear infinite;
     animation-direction: alternate;
 
     position: absolute;
-    transform: translate(-8px,-8px);
+    transform: translate(-8px,-30px);
 }
 @keyframes gradient {
     0% {background-position: 0%}
     100% {background-position: 100%}
 }
+
